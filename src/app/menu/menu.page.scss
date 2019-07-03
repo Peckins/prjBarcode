@@ -1,0 +1,14 @@
+ion-label{
+  @media screen and (orientation: portrait) {
+    margin-left: 20%;
+  }
+  @media screen and (orientation: landscape) {
+    margin-left: 40%;
+  }
+}
+ion-button{
+  margin-top: 30%;
+  @media screen and (orientation: portrait) {
+    margin-top: 100%;
+  }
+}

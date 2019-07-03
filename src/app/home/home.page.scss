@@ -1,1 +1,20 @@
-
+.ion-justify-items-center{
+    justify-content: center;
+  }
+  .border-dark{
+    border: solid 0.5px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 0;
+    padding: 5%;
+    background-color: white;
+    color: black;
+    @media screen and (orientation: portrait) {
+      margin-top: 50%;
+    }
+    @media screen and (orientation: landscape) {
+      margin-top: 10%;
+    }
+    text-align: center;
+  }
+  
